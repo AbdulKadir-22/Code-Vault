@@ -1,0 +1,15 @@
+.problem-card {
+  border: 2px solid #000000;
+  padding: 10px;
+  background-color: #111;
+
+}
+.problem-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index, .title, .difficulty, .date {
+  color: white;
+  font-weight: bold;
+}

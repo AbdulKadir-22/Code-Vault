@@ -1,6 +1,5 @@
 import TitleBar from "./Components/TitleBar"
 import Sidebar from "./Components/sidebar"
-import Heatmap from "./Components/Heatmap"
 import TagFilter from "./Components/TagFilters"
 import Title from "./Components/Title"
 import ProblemCard from "./Components/ProblemCard"
@@ -18,9 +17,6 @@ function App() {
               <Sidebar/>
           </div>
           <div className="content-Container">
-            <div className="Heatmap-Container">
-              <Heatmap/>
-            </div>
             <div className="Title-Container">
               <Title/>
             </div>

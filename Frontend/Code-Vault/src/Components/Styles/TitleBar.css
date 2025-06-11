@@ -11,6 +11,7 @@
   box-sizing: border-box;
   border-bottom: 2px solid #2a2a2a;
   margin-top: 0px;
+  position: fixed;
 }
 
 .title-text {

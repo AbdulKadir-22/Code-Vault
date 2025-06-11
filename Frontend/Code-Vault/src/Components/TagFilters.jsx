@@ -1,13 +1,11 @@
 import "./Styles/TagFilter.css"
 
-function TagFilter(){
-
-
-    return(
+function TagFilter({ tagClass, tagname }) {
+    return (
         <div className="TagFilter-Container">
-            <h1>Tag-Filters</h1>
+            <button className={tagClass}>#{tagname}</button>
         </div>
-    )
+    );
 }
 
-export default TagFilter
+export default TagFilter;

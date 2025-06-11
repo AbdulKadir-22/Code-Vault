@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+.title-container {
+  font-family: "Aladin", system-ui;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #2C2E31;
+  color: white;
+  border-radius: 6px;
+}
+
+.title-heading {
+  color: #c9f41f;
+  font-weight: bold;
+  font-family: "Aladin", system-ui;
+  font-size: 28px;
+  margin-right: 30px;
+}
+
+.search-wrapper {
+  font-family: "Aladin", system-ui;
+  display: flex;
+  align-items: center;
+  background-color: #e6e4e4;
+  border-radius: 999px;
+  padding: 7px 12px;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search-icon {
+  font-size: 14px;
+  color: gray;
+  margin-right: 6px;
+}
+
+.search-input {
+  font-family: "Aladin", system-ui;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #333;
+  font-size: 14px;
+  width: 100%;
+}
+
+.label {
+  font-family: "Aladin", system-ui;
+  font-size: 28px;
+  margin-left: 40px;
+}
+
+.date {
+  margin-left: 120px;
+}

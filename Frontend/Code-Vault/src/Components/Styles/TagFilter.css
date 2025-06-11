@@ -1,3 +1,24 @@
-.TagFilter-Container{
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+.TagFilter-Container {
+    display: inline-block;
+    margin: 8px 8px 8px 0;
+}
+
+.TagFilter-Container button {
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #1f1f1f;
+    color: white;
+    font-family: 'Aladin', cursive; /* A stylized font (import below) */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Active tag example — lime green glow */
+.TagFilter-Container button.active {
+    background-color: #ccff00;
+    color: black;
 }

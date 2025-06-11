@@ -21,7 +21,12 @@ function App() {
               <Title/>
             </div>
             <div className="Tags-Container">
-                <TagFilter/>
+              <TagFilter tagClass="" tagname="Array" />
+              <TagFilter tagClass="" tagname="String" />
+              <TagFilter tagClass="" tagname="Hashtable" />
+              <TagFilter tagClass="active" tagname="Sorting" />
+              <TagFilter tagClass="" tagname="Greedy" />
+              <TagFilter tagClass="" tagname="binary" />
             </div>
             <div className="Problem-Container">
               <div className="ProblemCard-Container">
@@ -30,6 +35,12 @@ function App() {
                   title="Two Sum"
                   difficulty="Easy"
                   date="7-June-2025"
+                />
+                <ProblemCard
+                  index = {2}
+                  title="Three Some"
+                  difficulty="Impossible"
+                  date="11-June-2025"
                 />
               </div> 
             </div>

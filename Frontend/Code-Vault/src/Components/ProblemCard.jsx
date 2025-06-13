@@ -10,7 +10,6 @@ const ProblemCard = ({ index, title, difficulty, date }) => {
         <span className="difficulty">{difficulty}</span>
         <span className="date">{date}</span>
       </div>
-      <hr />
     </div>
   );
 };

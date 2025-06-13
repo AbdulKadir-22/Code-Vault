@@ -21,10 +21,10 @@ function App() {
               <Title/>
             </div>
             <div className="Tags-Container">
-              <TagFilter tagClass="" tagname="Array" />
+              <TagFilter tagClass="active" tagname="Array" />
               <TagFilter tagClass="" tagname="String" />
               <TagFilter tagClass="" tagname="Hashtable" />
-              <TagFilter tagClass="active" tagname="Sorting" />
+              <TagFilter tagClass="" tagname="Sorting" />
               <TagFilter tagClass="" tagname="Greedy" />
               <TagFilter tagClass="" tagname="binary" />
             </div>
@@ -38,7 +38,7 @@ function App() {
                 />
                 <ProblemCard
                   index = {2}
-                  title="Three Some"
+                  title="Three"
                   difficulty="Impossible"
                   date="11-June-2025"
                 />

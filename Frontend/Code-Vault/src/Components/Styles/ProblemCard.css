@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
 .problem-card {
-  border: 2px solid #000000;
+  border: 1px solid #535353;
+  border-radius: 5px;
   padding: 10px;
   background-color: #111;
 
 }
 .problem-info {
+  font-family: 'Aladin', cursive;
   display: flex;
   justify-content: space-between;
   align-items: center;
